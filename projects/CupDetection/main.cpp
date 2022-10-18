@@ -87,16 +87,13 @@ int main()
 	//»­¾ØÐÎ
 	for (int i = 1; i < nComp; i++)
 	{
-		int width = stats.at<int>(i, 2);
-		int height = stats.at<int>(i, 3);
-
 		Rect bandbox;
 		bandbox.x = stats.at<int>(i, 0);
 		bandbox.y = stats.at<int>(i, 1);
 
 		bandbox.width = stats.at<int>(i, 2);
 		bandbox.height = stats.at<int>(i, 3);
-		rectangle(output, bandbox, 255, 1, 8, 0);
+		rectangle(output, bandbox, Scalar(255, 0, 0), 1, 8, 0);
 	}
 
 	imshow("output", output);
