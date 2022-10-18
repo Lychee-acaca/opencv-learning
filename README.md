@@ -9,19 +9,12 @@
 ## 目前为止实现的功能
 
 - RGB_Histgram，调用本机摄像头，实时绘制RGB直方图
-
 - Threshold_Trackbar，创建一个简易滑条实现可变阈值的图像二值化
-
 - SkinGrinding，简单磨皮（双边滤波，高斯滤波，中值滤波，均值滤波）
-
 - SolderJoint_ConnectedComponents，焊点检测（腐蚀后计算连通域数量）
-
 - EdgeDetection，边缘检测（基于sobel算子和canny算子）
-
 - ImageRectification，简单图像自动矫正（使用投影变换）
-
-- Wheel_CircularDetection，检测轮毂图片上的一些圆形（轮廓检测）
-
 - Parts_hough，检测零件图片上的直线（使用两种霍夫变换）
-
+- Wheel_CircularDetection，检测轮毂图片上的一些圆形（轮廓检测，计算圆形度）
+- ChipDetection，检测芯片正中央的正方形（中值滤波后连通域标记，筛选正方形）
 - CupDetection，检测红色杯盖（画hsv直方图找范围，连通域标记）
