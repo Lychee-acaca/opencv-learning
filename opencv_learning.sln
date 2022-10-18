@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRectification", "proje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SolderJoint_ConnectedComponents", "projects\SolderJoint_ConnectedComponents\SolderJoint_ConnectedComponents.vcxproj", "{9907FB44-91B0-4A71-903B-A8638B3B9678}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CupDetection", "projects\CupDetection\CupDetection.vcxproj", "{546F6099-2590-4033-8CC1-09DDB110FC46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{9907FB44-91B0-4A71-903B-A8638B3B9678}.Release|x64.Build.0 = Release|x64
 		{9907FB44-91B0-4A71-903B-A8638B3B9678}.Release|x86.ActiveCfg = Release|Win32
 		{9907FB44-91B0-4A71-903B-A8638B3B9678}.Release|x86.Build.0 = Release|Win32
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Debug|x64.ActiveCfg = Debug|x64
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Debug|x64.Build.0 = Debug|x64
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Debug|x86.ActiveCfg = Debug|Win32
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Debug|x86.Build.0 = Debug|Win32
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Release|x64.ActiveCfg = Release|x64
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Release|x64.Build.0 = Release|x64
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Release|x86.ActiveCfg = Release|Win32
+		{546F6099-2590-4033-8CC1-09DDB110FC46}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
