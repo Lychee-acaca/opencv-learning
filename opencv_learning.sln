@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGB_Histgram", "projects\RG
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Threshold_Trackbar", "projects\Threshold_Trackbar\Threshold_Trackbar.vcxproj", "{027A8258-3969-4305-A8EF-96C621946CCD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdgeDetection", "projects\EdgeDetection\EdgeDetection.vcxproj", "{18E81B09-F11C-46F2-81A3-CECDA4508DDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{027A8258-3969-4305-A8EF-96C621946CCD}.Release|x64.Build.0 = Release|x64
 		{027A8258-3969-4305-A8EF-96C621946CCD}.Release|x86.ActiveCfg = Release|Win32
 		{027A8258-3969-4305-A8EF-96C621946CCD}.Release|x86.Build.0 = Release|Win32
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Debug|x64.ActiveCfg = Debug|x64
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Debug|x64.Build.0 = Debug|x64
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Debug|x86.Build.0 = Debug|Win32
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Release|x64.ActiveCfg = Release|x64
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Release|x64.Build.0 = Release|x64
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Release|x86.ActiveCfg = Release|Win32
+		{18E81B09-F11C-46F2-81A3-CECDA4508DDB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
