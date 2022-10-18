@@ -23,3 +23,5 @@
 - Wheel_CircularDetection，检测轮毂图片上的一些圆形（轮廓检测）
 
 - Parts_hough，检测零件图片上的直线（使用两种霍夫变换）
+
+- CupDetection，检测红色杯盖（画hsv直方图找范围，连通域标记）
