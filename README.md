@@ -8,6 +8,8 @@
 
 ## 目前为止实现的功能
 
+- RGB_Histgram，调用本机摄像头，实时绘制RGB直方图
+
 - SkinGrinding，简单磨皮（双边滤波，高斯滤波，中值滤波，均值滤波）
 
 - Wheel_CircularDetection，检测轮毂图片上的一些圆形（轮廓检测）
