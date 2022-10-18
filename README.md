@@ -14,6 +14,8 @@
 
 - SkinGrinding，简单磨皮（双边滤波，高斯滤波，中值滤波，均值滤波）
 
+- SolderJoint_ConnectedComponents，焊点检测（腐蚀后计算连通域数量）
+
 - EdgeDetection，边缘检测（基于sobel算子和canny算子）
 
 - ImageRectification，简单图像自动矫正（使用投影变换）
