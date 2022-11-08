@@ -174,6 +174,7 @@ int selectPolygon(cv::Mat srcMat, cv::Mat& dstMat)
     contours.push_back(mousePoints);
     if (contours[0].size() < 3) {
         std::cout << "failed to read image!:" << std::endl;
+        m.copyTo(dstMat);
         return -1;
     }
 
