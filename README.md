@@ -23,4 +23,4 @@
 - Woven_Remove，消除布纹（傅里叶变换，去除高频区域的连通域，再反变换）
 - Hist_Transform，直方图线性变换、单通道gamma矫正、三通道直方图均衡、三通道gamma矫正（LUT查找表）
 - Background_Diff，背景差分（内含验证摄像头灰度值高斯分布，手动实现的背景差分（还做了简单的连通域追踪），opencv自动实现的背景差分）
-
+- Parts_Tracking，目标零件追踪（HOG，先降低分辨率匹配再范围内精细匹配）
